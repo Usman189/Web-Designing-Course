@@ -1,0 +1,23 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: orange;
+    
+    
+}
+
+
+
+#practice{
+    text-align: center;
+    text-transform: capitalize;
+}
+
+
+#outer{
+    font-size: 25px;
+}
+
+
+#inner{
+    font-size: 10px;
+}
