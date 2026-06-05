@@ -1,0 +1,195 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+/* Global Css */
+
+.container{
+    width: 80%;
+    margin: auto;
+    
+}
+
+/* heading Css */
+ul{
+    margin: 0px;
+    padding: 0px;
+}
+
+.mobile{
+    color: #fca311;
+    font-weight: bold;
+}
+.contain{
+    background-color: #fca311;
+    color: aliceblue;
+    padding: 20px;
+}
+
+
+.heading{
+    background-color: #14213d;
+    color: white;
+    border-bottom: 4px solid orchid;
+}
+
+
+.sub-heading{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul{
+    display: flex;
+    
+}
+
+nav ul li{
+    list-style: none;
+    margin-left: 60px;
+    font-size: 20px;
+}
+nav ul li a{
+    color: aliceblue;
+    text-decoration: none;
+}
+
+/* This is bthe Css part of our showcase  */
+
+#showcase{
+    height: 400px;
+  background-image: url(../Images/HTML\ image.jpg);
+  background-size: cover;
+  background-position-y: center ;
+    margin: 0px;
+    padding: 0px;
+}
+.opacity{
+    height: 400px;
+    background-color: rga(172, 172, 199, 0.7);
+}
+
+.sub-showcase{
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.sub-showcase{
+    font-size: 20px;
+}
+.sub-showcase{
+    text-align: center;
+    margin: 0px 120px;
+}
+
+/* This is the cs for news letter */
+
+#news{
+    background-color: #14213d;
+    color: white;
+}
+
+.sub-news{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.sub-news form input{
+    padding: 10px;
+    width: 200px;
+    border-radius: 10px;
+}
+.sub-news form button{
+    background-color: #fca311;
+    color: #14213d;
+    padding: 10px 20px;
+    font-weight: bold;
+}
+
+/* this is the for boxes */
+.sub-boxes{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.sub-boxes .box{
+    margin: 0px 5px;
+    text-align: center;
+    padding: 40px;
+    border: 2px solid #14213d;
+    font-size: 20px;
+}
+/* this is the about page css */
+.sub-about{
+    display: flex;
+    margin-bottom: 40px;
+}
+.sub-about .l-about{
+    width: 70%;
+     line-height: 30px;  /* line distance kyy liyee    */
+     margin-right:20px ;             
+}
+.sub-about .r-about{
+    margin-top: 40px;
+    width: 30%;
+}
+
+
+/* this is the services page csss */
+.sub-services{
+    display: flex;
+    margin-bottom: 20px;
+}
+.l-services{
+    width: 70%;
+    margin-right: 20px;
+}
+.l-services div{
+    background-color: #e5e5e5;
+    border: 1px solid #14213d;
+    margin-bottom: 10px;
+    padding: 20px;
+
+}
+.r-services{
+    width: 30%;
+    margin-top: 75px;
+    height: 400px;
+
+}
+.r-services form h3{
+    color: #14213d;
+    font-weight: bold;
+    font-size: 25px;
+}
+.r-services form div input, .r-services form div textarea{
+    width: 100%;
+    padding: 5px;
+    margin: 10px 0px;
+}
+.r-services form button{
+    width: 50%;
+    padding: 10px;
+    background-color: #14213d;
+    color: #fca311;
+}
+
+/* this is the styling of the footer  */
+
+#footer{
+    background-color: #14213d;
+    color: #fca311;
+    height: 70px;
+}
+.sub-footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+}
+
