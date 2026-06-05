@@ -1,0 +1,56 @@
+.container div{
+    border: 2px solid rgb(12, 179, 65);
+
+
+}
+
+.Container div{
+border: 2px solid rgb(194, 5, 5);
+
+}
+
+
+body{
+    font-family: Arial, sans-serif;;
+background-color: #da6e43;
+}
+
+.banner{
+    background-color: lightblue;
+    color: black;
+    text-align: center;
+    padding: 30px 20px; 
+    }
+
+.banner h1{
+    font-size: 38px;
+    
+}
+
+.section-box{
+    background-color: white;
+    width: 60%;
+    margin: 30px;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+    h2 {
+    color: black;
+    border-bottom: 2px solid #2fabdc; /* Heading ke neechay aik line */
+    padding-bottom: 5px;
+}
+
+ul li{
+    padding: 8px;
+    font-size: 20px;
+}
+
+.footer{
+    text-align: center;
+    font-size: 30px;
+    padding: 20px;
+    color: #c30e0e;
+
+}
+
